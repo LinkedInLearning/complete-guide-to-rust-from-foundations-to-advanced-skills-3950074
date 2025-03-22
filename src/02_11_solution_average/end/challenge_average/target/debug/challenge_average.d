@@ -1,0 +1,1 @@
+/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_11_solution_average/end/challenge_average/target/debug/challenge_average: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_11_solution_average/end/challenge_average/src/main.rs
