@@ -1,0 +1,1 @@
+/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_01_declaring_variables/end/declaring_variables/target/debug/declaring_variables: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_01_declaring_variables/end/declaring_variables/src/main.rs

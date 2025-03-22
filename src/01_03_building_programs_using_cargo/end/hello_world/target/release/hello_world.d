@@ -1,0 +1,1 @@
+/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/01_03_building_programs_using_cargo/end/hello_world/target/release/hello_world: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/01_03_building_programs_using_cargo/end/hello_world/src/main.rs
