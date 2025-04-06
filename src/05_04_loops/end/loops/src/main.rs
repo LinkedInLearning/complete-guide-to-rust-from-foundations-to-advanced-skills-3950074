@@ -6,7 +6,7 @@ fn main() {
             break count * 10;
         }
         count += 1;
-        println!("count is {}", count);
+        println!("count is {count}");
     };
 
     println!("After the loop!");
