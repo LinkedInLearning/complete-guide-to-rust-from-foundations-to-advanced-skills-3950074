@@ -1,8 +1,9 @@
 fn main() {
-    let mut count = 20;
+    let mut count = 0;
+    let letters = ['a', 'b', 'c'];
 
-    while count < 10 {
+    while count < letters.len() {
+        println!("letter is {}", letters[count]);
         count += 1;
-        println!("count is {count}");
     }
 }

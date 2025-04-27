@@ -1,0 +1,1 @@
+/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/05_09_solution_max_min_mean/end/solution_max_min_mean/target/debug/solution_max_min_mean: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/05_09_solution_max_min_mean/end/solution_max_min_mean/src/main.rs

@@ -1,1 +1,0 @@
-/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_04_arithmetic_operations/end/arithmetic_operations/target/debug/arithmetic_operations: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_04_arithmetic_operations/end/arithmetic_operations/src/main.rs
