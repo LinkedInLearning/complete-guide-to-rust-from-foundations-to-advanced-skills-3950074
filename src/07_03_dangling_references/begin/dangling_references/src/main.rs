@@ -1,6 +1,6 @@
-dffn main() {
+fn main() {
     let rocket_fuel = produce_fuel();
-    println!("rocket_fuel is {}", rocket_fuel);
+    println!("rocket_fuel is {rocket_fuel}");
 }
 
 fn produce_fuel() -> &String {
