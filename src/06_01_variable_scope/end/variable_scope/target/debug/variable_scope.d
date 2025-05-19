@@ -1,0 +1,1 @@
+/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/06_01_variable_scope/end/variable_scope/target/debug/variable_scope: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/06_01_variable_scope/end/variable_scope/src/main.rs

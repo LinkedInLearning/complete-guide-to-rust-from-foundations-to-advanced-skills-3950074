@@ -1,3 +1,6 @@
 fn main() {
-    println!("Hello, world!");
+    let mut message = String::from("Earth");
+    println!("message is {message}");
+    message.push_str(" is home.");
+    println!("message is {message}");
 }
