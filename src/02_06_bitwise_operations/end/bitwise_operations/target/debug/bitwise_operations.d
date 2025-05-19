@@ -1,1 +1,0 @@
-/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_06_bitwise_operations/end/bitwise_operations/target/debug/bitwise_operations: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_06_bitwise_operations/end/bitwise_operations/src/main.rs

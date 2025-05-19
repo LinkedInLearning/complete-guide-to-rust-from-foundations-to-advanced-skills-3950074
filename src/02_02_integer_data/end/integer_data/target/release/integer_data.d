@@ -1,1 +1,0 @@
-/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_02_integer_data/end/integer_data/target/release/integer_data: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/02_02_integer_data/end/integer_data/src/main.rs

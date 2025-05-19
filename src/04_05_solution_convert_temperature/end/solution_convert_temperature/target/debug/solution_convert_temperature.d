@@ -1,1 +1,0 @@
-/workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/04_05_solution_convert_temperature/end/solution_convert_temperature/target/debug/solution_convert_temperature: /workspaces/complete-guide-to-rust-from-foundations-to-advanced-skills-3950074/src/04_05_solution_convert_temperature/end/solution_convert_temperature/src/main.rs
