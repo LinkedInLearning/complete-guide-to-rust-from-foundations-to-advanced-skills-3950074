@@ -1,8 +1,8 @@
-use rand::prelude::*;
+use rand::random_range;
 use std::io;
 
 fn main() {
-    let secret_number = rand::thread_rng().gen_range(1, 101);
+    let secret_number = random_range(1..101);
 
     println!("I'm thinking of a number between 1 and 100...");
     println!("Guess the number:");

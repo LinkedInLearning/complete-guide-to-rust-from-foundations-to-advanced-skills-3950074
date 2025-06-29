@@ -2,10 +2,7 @@ use std::fs;
 use std::io;
 
 fn read_and_combine(f1: &str, f2: &str) -> Result<String, io::Error> {
-    let mut s1 = match fs::read_to_string(f1) {
-        Ok(s) => s,
-        Err(e) => return Err(e),
-    };
+    let mut s1 = fs::read_to_string(f1)?;
     let s2 = match fs::read_to_string(f2) {
         Ok(s) => s,
         Err(e) => return Err(e),
