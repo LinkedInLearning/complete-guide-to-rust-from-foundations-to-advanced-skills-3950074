@@ -9,10 +9,11 @@ fn main() {
     let mut vehicle = Shuttle {
         name: String::from("Endeavour"),
         crew_size: 7,
-        propellant: 835958.0,
+        propellant: 1585000.0,
     };
+
     println!("name is {}", vehicle.name);
 
     vehicle.name = String::from("Atlantis");
-    println!("vehicle is {:?}", vehicle);
+    println!("vehicle is {vehicle:?}");
 }

@@ -14,11 +14,11 @@ fn main() {
         let guess: u32 = guess.trim().parse().expect("Failed to parse the guess.");
 
         if guess > secret_number {
-            println!("\n{} is too high! Guess lower:", guess);
+            println!("\n{guess} is too high! Guess lower:");
         } else if guess < secret_number {
-            println!("\n{} is too low! Guess higher:", guess);
+            println!("\n{guess} is too low! Guess higher:");
         } else {
-            println!("\nYou got it! The secret number was {}.", secret_number);
+            println!("\nYou got it! The secret number was {secret_number}.");
             break;
         }
     }

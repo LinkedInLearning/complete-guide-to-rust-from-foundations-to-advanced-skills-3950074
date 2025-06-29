@@ -8,7 +8,7 @@ fn main() {
         Some(f) => match fs::read_to_string(f) {
             Ok(s) => s.to_lowercase(),
             Err(e) => {
-                eprintln!("Could not read file: {}", e);
+                eprintln!("Could not read file: {e}");
                 std::process::exit(1);
             }
         },
@@ -39,8 +39,8 @@ fn main() {
     }
 
     // display results
-    println!("Top word(s) occurred {} times:", top_count);
+    println!("Top word(s) occurred {top_count} times:");
     for word in top_words.iter() {
-        println!("{}", word);
+        println!("{word}");
     }
 }

@@ -11,10 +11,10 @@ fn main() {
 
     for line in fs::read_to_string(file_path).unwrap().lines() {
         if line == search_name {
-            println!("{} did walk on the Moon!", search_name);
+            println!("{search_name} is in the list.");
             return;
         }
     }
 
-    println!("{} did NOT walk on the Moon... YET!", search_name);
+    println!("{search_name} was NOT found in the list.");
 }

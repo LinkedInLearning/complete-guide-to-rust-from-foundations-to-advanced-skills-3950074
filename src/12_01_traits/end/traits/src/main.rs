@@ -9,6 +9,28 @@ struct SpaceStation {
     altitude: u32, // miles
 }
 
+trait Description {
+    fn describe(&self) -> String;
+}
+
+impl Description for Satellite {
+    fn describe(&self) -> String {
+        format!(
+            "the {} flying at {} miles per second!",
+            self.name, self.velocity
+        )
+    }
+}
+
+impl Description for SpaceStation {
+    fn describe(&self) -> String {
+        format!(
+            "the {} flying {} miles high with {} crew members aboard!",
+            self.name, self.altitude, self.crew_size
+        )
+    }
+}
+
 fn main() {
     let hubble = Satellite {
         name: String::from("Hubble Telescope"),
@@ -19,6 +41,6 @@ fn main() {
         crew_size: 6,
         altitude: 254,
     };
-    println!("hubble is {}", hubble);
-    println!("iss is {}", iss);
+    println!("hubble is {}", hubble.describe());
+    println!("iss is {}", iss.describe());
 }

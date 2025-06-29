@@ -10,5 +10,5 @@ fn main() {
         name: String::from("Hubble Telescope"),
         velocity: 4.72,
     };
-    println!("hubble is {}", hubble);
+    println!("hubble is {hubble}");
 }

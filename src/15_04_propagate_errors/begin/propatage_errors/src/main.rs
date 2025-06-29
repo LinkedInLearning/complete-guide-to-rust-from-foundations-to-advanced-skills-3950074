@@ -18,7 +18,7 @@ fn read_and_combine(f1: &str, f2: &str) -> Result<String, io::Error> {
 fn main() {
     let result = read_and_combine("planets.txt", "dwarf_planets.txt");
     match result {
-        Ok(s) => println!("result is...\n{}", s),
-        Err(e) => println!("There was an error: {}", e),
+        Ok(s) => println!("result is...\n{s}"),
+        Err(e) => println!("There was an error: {e}"),
     };
 }

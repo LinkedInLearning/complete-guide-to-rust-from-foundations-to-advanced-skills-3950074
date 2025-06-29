@@ -11,5 +11,5 @@ fn main() {
     let propellant1 = String::from("RP-1");
     let propellant2 = String::from("LNG");
     result = best_fuel(&propellant1, &propellant2);
-    println!("result is {}", result);
+    println!("result is {result}");
 }

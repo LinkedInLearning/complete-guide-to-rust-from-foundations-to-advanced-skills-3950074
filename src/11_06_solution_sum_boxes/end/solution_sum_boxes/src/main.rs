@@ -1,4 +1,6 @@
-/* YOUR CODE GOES HERE */
+fn sum_boxes<T: std::ops::Add<Output = T>>(a: Box<T>, b: Box<T>) -> Box<T> {
+    Box::new(*a + *b)
+}
 
 fn main() {
     let one = Box::new(1);

@@ -10,8 +10,9 @@ fn main() {
     let vehicle = Shuttle {
         name: String::from("Atlantis"),
         crew_size: 7,
-        propellant: 835958.0,
+        propellant: 1585000.0,
     };
+
     println!(
         "vehicle size on stack: {} bytes",
         mem::size_of_val(&vehicle)

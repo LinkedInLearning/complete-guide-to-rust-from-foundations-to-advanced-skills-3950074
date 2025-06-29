@@ -2,7 +2,7 @@ fn best_fuel<'a>(x: &'a str, y: &'a str) -> &'a str {
     if x.len() > y.len() {
         x
     } else {
-        z
+        y
     }
 }
 
@@ -13,5 +13,5 @@ fn main() {
         let propellant2 = String::from("LNG");
         result = best_fuel(&propellant1, &propellant2);
     }
-    println!("result is {}", result);
+    println!("result is {result}");
 }

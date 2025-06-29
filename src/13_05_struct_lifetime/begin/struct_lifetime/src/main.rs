@@ -4,7 +4,7 @@ struct Shuttle {
 
 impl Shuttle {
     fn send_transmission(&self, msg: &str) -> &str {
-        println!("Transmitting message: {}", msg);
+        println!("Transmitting message: {msg}");
         &self.name
     }
 }
@@ -15,5 +15,5 @@ fn main() {
     };
 
     let sender = vehicle.send_transmission("Greetings from orbit!");
-    println!("sender is {}", sender);
+    println!("sender is {sender}");
 }

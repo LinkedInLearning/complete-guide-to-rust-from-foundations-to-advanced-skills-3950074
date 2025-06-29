@@ -9,7 +9,7 @@ impl Location {
         match *self {
             Location::Unknown => println!("Unknown Location"),
             Location::Anonymous => println!("Anonymous Location"),
-            Location::Known(lat, lon) => println!("{}, {}", lat, lon),
+            Location::Known(lat, lon) => println!("{lat}, {lon}"),
         }
     }
 }

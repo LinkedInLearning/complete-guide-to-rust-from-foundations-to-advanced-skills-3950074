@@ -7,5 +7,5 @@ enum Shape {
 
 fn main() {
     let my_shape = Shape::Rectangle(1.2, 3.4);
-    println!("my_shape is {:?}", my_shape);
+    println!("my_shape is {my_shape:?}");
 }

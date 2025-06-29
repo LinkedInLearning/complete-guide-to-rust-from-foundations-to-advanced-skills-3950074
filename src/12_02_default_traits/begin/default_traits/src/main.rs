@@ -10,7 +10,7 @@ struct SpaceStation {
 }
 
 trait Description {
-    fn describe(&self) -> Stringz;
+    fn describe(&self) -> String;
 }
 
 impl Description for Satellite {

@@ -1,3 +1,4 @@
+#[derive(PartialEq, PartialOrd)]
 struct Satellite {
     name: String,
     velocity: f64, // miles per second
@@ -13,4 +14,5 @@ fn main() {
         velocity: 2.42,
     };
     println!("hubble == gps is {}", hubble == gps);
+    println!("hubble > gps is {}", hubble > gps);
 }

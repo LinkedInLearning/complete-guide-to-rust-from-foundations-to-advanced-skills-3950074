@@ -1,13 +1,13 @@
 #[derive(Debug)]
-struct Rectangle {
-    width: f64,
-    height: f64,
+struct Rectangle<T, U> {
+    width: T,
+    height: U,
 }
 
 fn main() {
     let rect = Rectangle {
-        width: 1.2,
-        height: 3.4,
+        width: 1u8,
+        height: 3u16,
     };
-    println!("rect is {:?}", rect);
+    println!("rect is {rect:?}");
 }

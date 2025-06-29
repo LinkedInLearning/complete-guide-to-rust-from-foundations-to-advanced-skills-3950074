@@ -9,5 +9,5 @@ fn main() {
         width: 1.2,
         height: 3.4,
     };
-    println!("rect is {:?}", rect);
+    println!("rect is {rect:?}");
 }

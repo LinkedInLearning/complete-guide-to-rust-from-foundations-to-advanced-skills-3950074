@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 struct Shuttle {
     name: String,
     crew_size: u8,
@@ -9,10 +9,12 @@ fn main() {
     let mut vehicle = Shuttle {
         name: String::from("Endeavour"),
         crew_size: 7,
-        propellant: 835958.0,
+        propellant: 1585000.0,
     };
-    println!("name is {}", vehicle.name);
 
-    vehicle.name = String::from("Atlantis");
-    println!("vehicle is {:?}", vehicle);
+    let vehicle2 = Shuttle { ..vehicle.clone() };
+
+    vehicle.crew_size = 6;
+    println!("vehicle is {vehicle:?}");
+    println!("vehicle2 is {vehicle2:?}");
 }
