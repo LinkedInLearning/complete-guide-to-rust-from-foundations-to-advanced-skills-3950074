@@ -1,35 +1,23 @@
-fn main() {
-    let rect = Rectangle::new(1.0, 2.0);
-    let area = rect.get_feature(Feature::Area);
-    println!("rect area is {area}");
-
-    let circ = Circle::new(3.0);
-    let perimeter = circ.get_feature(Feature::Perimeter);
-src/16_02_hashmaps    println!("circ perimeter is {perimeter}");
-}
-
-// Move code below here into a module named "shapes"
-
-struct Rectangle {
+pub struct Rectangle {
     width: f64,
     height: f64,
 }
 
-struct Circle {
+pub struct Circle {
     radius: f64,
 }
 
-enum Feature {
+pub enum Feature {
     Area,
     Perimeter,
 }
 
 impl Rectangle {
-    fn new(width: f64, height: f64) -> Rectangle {
+    pub fn new(width: f64, height: f64) -> Rectangle {
         Rectangle { width, height }
     }
 
-    fn get_feature(&self, feature: Feature) -> f64 {
+    pub fn get_feature(&self, feature: Feature) -> f64 {
         match feature {
             Feature::Area => self.calc_area(),
             Feature::Perimeter => self.calc_perimeter(),
@@ -46,11 +34,11 @@ impl Rectangle {
 }
 
 impl Circle {
-    fn new(radius: f64) -> Circle {
+    pub fn new(radius: f64) -> Circle {
         Circle { radius }
     }
 
-    fn get_feature(&self, feature: Feature) -> f64 {
+    pub fn get_feature(&self, feature: Feature) -> f64 {
         match feature {
             Feature::Area => self.calc_area(),
             Feature::Perimeter => self.calc_circumference(),

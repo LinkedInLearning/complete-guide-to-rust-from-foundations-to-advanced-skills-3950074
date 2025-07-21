@@ -1,15 +1,10 @@
 fn main() {
-    crate::hello::english(); //hello
-    crate::hello::spanish(); //hola
-    super::spanish();
-    crate::hello::casual::english(); //hey
+    println!("Hello, world!");
 }
 
-mod greeting {
+mod hello {
     fn english() {
         println!("hello");
-        spanish();
-        casual::english();
     }
 
     fn spanish() {

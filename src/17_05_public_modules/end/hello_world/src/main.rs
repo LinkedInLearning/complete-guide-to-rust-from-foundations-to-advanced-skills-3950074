@@ -1,19 +1,22 @@
 fn main() {
     hello::english();
+    hello::casual::english();
 }
 
 mod hello {
-    fn english() {
+    pub fn english() {
         println!("hello");
+        spanish();
     }
 
     fn spanish() {
         println!("hola");
     }
 
-    mod casual {
-        fn english() {
+    pub mod casual {
+        pub fn english() {
             println!("hey");
+            super::spanish();
         }
     }
 }

@@ -1,5 +1,10 @@
+// use crate::greeting::formal;
+// use crate::greeting::casual;
+use crate::greeting::{casual, formal};
+
 fn main() {
     greeting::formal::english();
+    casual::spanish();
 }
 
 mod greeting {
