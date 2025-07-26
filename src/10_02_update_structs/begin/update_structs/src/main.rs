@@ -12,8 +12,5 @@ fn main() {
         propellant: 1585000.0,
     };
 
-    println!("name is {}", vehicle.name);
-
-    vehicle.name = String::from("Atlantis");
     println!("vehicle is {vehicle:?}");
 }
