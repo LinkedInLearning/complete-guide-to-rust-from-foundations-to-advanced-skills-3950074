@@ -17,8 +17,9 @@ mod tests {
     use super::*;
 
     #[test]
+    #[should_panic(expected = "needs a name!")]
     fn person_test() {
-        let new_person = Person::new("Steve".to_string());
-        assert_eq!(new_person.name, "Steve".to_string());
+        let new_person = Person::new("".to_string());
+        assert_ne!(new_person.name, "Steve".to_string());
     }
 }
