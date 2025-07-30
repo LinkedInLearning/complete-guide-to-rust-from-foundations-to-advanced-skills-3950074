@@ -12,5 +12,5 @@ fn main() {
     let third = astronauts.get(2);
     println!("third is {third:?}");
 
-    let countdown = vec![5, 4, 3, 2, 1];
+    let countdown = vec![3, 2, 1, 0];
 }
