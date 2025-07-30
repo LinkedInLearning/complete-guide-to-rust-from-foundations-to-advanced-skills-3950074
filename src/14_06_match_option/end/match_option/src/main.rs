@@ -1,5 +1,5 @@
 fn main() {
-    let countdown = [5, 4, 3, 2, 1];
+    let countdown = [3, 2, 1, 0];
     let number = countdown.get(2);
     let number = match number {
         Some(number) => number + 1,

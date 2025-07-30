@@ -1,5 +1,5 @@
 fn main() {
-    let countdown = [5, 4, 3, 2, 1];
-    let number = countdown[5];
+    let countdown = [3, 2, 1, 0];
+    let number = countdown[4];
     println!("number is {number:?}");
 }
