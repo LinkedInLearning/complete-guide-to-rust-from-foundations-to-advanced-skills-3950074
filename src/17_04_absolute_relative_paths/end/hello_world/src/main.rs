@@ -1,8 +1,8 @@
 fn main() {
-    crate::hello::english(); //hello
-    crate::hello::spanish(); //hola
-    super::spanish();
-    crate::hello::casual::english(); //hey
+    crate::hello::english(); // hello
+    crate::hello::spanish(); // hola
+    hello::spanish();
+    crate::hello::casual::english(); // hey
 }
 
 mod greeting {
@@ -19,6 +19,8 @@ mod greeting {
     mod casual {
         fn english() {
             println!("hey");
+            crate::hello::spanish();
+            super::spanish();
         }
     }
 }
