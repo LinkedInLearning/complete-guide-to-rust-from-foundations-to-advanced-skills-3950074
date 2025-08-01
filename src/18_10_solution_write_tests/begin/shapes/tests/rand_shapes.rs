@@ -1,5 +1,5 @@
-use rand::prelude::*;
 use shapes::*;
+use rand::prelude::*;
 
 #[test]
 fn it_rand_rectangle() {
